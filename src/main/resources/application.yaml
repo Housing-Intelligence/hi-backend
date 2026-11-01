@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: hi-backend
+    datasource:
+        url: jdbc:mysql://localhost:3306/hi_backend?useSSL=false&serverTimezone=UTC
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+    port: 10010
+    servlet:
+        context-path: /hi-backend
