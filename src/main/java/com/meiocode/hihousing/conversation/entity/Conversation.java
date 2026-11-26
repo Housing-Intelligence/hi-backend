@@ -60,4 +60,8 @@ public class Conversation {
     public Instant getUpdatedAt() {
         return updatedAt;
     }
+
+    public void markUpdated() {
+        this.updatedAt = Instant.now();
+    }
 }

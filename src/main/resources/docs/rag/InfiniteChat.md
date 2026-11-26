@@ -1,26 +1,15 @@
-# 📚 千言 AI 助手知识库文档
+# HI Housing – RAG Test Knowledge
 
-### Q. 项目基本信息
+## 1. Housing Evaluation
+HI Housing helps users evaluate residential areas in the Netherlands based on housing prices, commute time, nearby facilities, air quality, and neighborhood safety.
 
-A：
-- **项目名称**：千言
-- **英文名称**：InfiniteChat
-- **项目类型**：即时通讯（IM）软件
-- **核心理念**：让沟通更自由，让表达更千言万语
-- **目标用户**：个人用户、小型团队、社区交流者
-- **开发状态**：[开发中]
+## 2. Location Factors
+- Commute: Shorter travel time to work is preferred.
+- Facilities: Supermarkets, hospitals, schools, and public transport are important.
+- Environment: Lower air pollution and quieter neighborhoods are preferred.
+- Safety: Neighborhood safety should be considered.
 
-### Q. 项目背景与愿景
+## 3. Example
+Question: What should I consider when choosing a residential area?
 
-A：「千言」诞生于对高效、简洁、私密沟通工具的需求。在信息爆炸的时代，我们希望打造一个轻量、安全、智能的聊天平台，让用户专注于交流本身，而非被繁杂的功能干扰。
-“千言”取自成语“千言万语”，寓意即使千言万语，也能在此顺畅传达。
-
-
-### Q：这个软件叫什么名字？
-
-A：本软件名为「千言」，寓意“千言万语，尽在其中”。
-
-### Q：谁开发了千言？
-
-A：千言由 [山羊算法] 独立开发。
-
+Answer: Consider housing prices, commute time, nearby facilities, air quality, and neighborhood safety. Balance these factors based on your priorities.

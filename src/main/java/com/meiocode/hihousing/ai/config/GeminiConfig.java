@@ -1,4 +1,4 @@
-package com.meiocode.hihousing.config;
+package com.meiocode.hihousing.ai.config;
 
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.googleai.GoogleAiGeminiChatModel;

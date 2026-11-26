@@ -1,4 +1,4 @@
-package com.meiocode.hihousing.config;
+package com.meiocode.hihousing.ai.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

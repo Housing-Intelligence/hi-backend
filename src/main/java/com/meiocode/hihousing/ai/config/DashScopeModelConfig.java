@@ -1,4 +1,4 @@
-package com.meiocode.hihousing.config;
+package com.meiocode.hihousing.ai.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

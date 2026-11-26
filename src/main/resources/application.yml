@@ -19,7 +19,13 @@ spring:
     flyway:
         enabled: true
         locations: classpath:db/migration
-
+    
+    data:
+        redis:
+            host: ${REDIS_HOST:localhost}
+            port: ${REDIS_PORT:6379}
+            # password: ${REDIS_PASSWORD:}
+            database: 0
 
 server:
     port: 10010
@@ -29,12 +35,15 @@ server:
 app:
     ai:
         provider: qwen
+        memory:
+            key-prefix: "hi:chat-memory:"
+            ttl-seconds: 86400
 
 langchain4j:
     community:
         dashscope:
             chat-model:
-                model-name: qwen-max
+                model-name: qwen-plus
                 api-key: ${qwen_api_key}
     google-ai-gemini:
         chat-model:
